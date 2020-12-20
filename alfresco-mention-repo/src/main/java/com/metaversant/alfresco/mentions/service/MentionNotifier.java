@@ -36,9 +36,9 @@ public class MentionNotifier {
 
     private Logger logger = Logger.getLogger(MentionNotifier.class);
 
-    private static final String COMMENT_NOTIFICATION_SUBJECT = "You were mentioned in a comment";
+    private static final String COMMENT_NOTIFICATION_SUBJECT = "PMGA DMS: Comment Notification";
     private static final String COMMENT_NOTIFICATION_TEMPLATE_PATH = "/app:company_home/app:dictionary/app:email_templates/app:notify_email_templates/cm:notify_comment_email.html.ftl";
-    private static final String POST_NOTIFICATION_SUBJECT = "You were mentioned in a discussion";
+    private static final String POST_NOTIFICATION_SUBJECT = "PMGA DMS: Discussion Notification";
     private static final String POST_NOTIFICATION_TEMPLATE_PATH = "/app:company_home/app:dictionary/app:email_templates/app:notify_email_templates/cm:notify_post_email.html.ftl";
     private static final QName TYPE_LINK = QName.createQName("http://www.alfresco.org/model/linksmodel/1.0", "link");
 
